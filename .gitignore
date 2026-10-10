@@ -1,0 +1,6 @@
+/target/
+*.profraw
+*.trace
+profile-results-*.csv
+.vscode/
+

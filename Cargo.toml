@@ -1,0 +1,14 @@
+[workspace]
+members = ["crates/sim-core", "apps/sim-profile"]
+resolver = "3"
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.95"
+license = "GPL-3.0-or-later"
+
+[workspace.dependencies]
+bevy_ecs = { version = "0.20.0", default-features = false, features = ["std", "multi_threaded"] }
+bevy_tasks = { version = "0.20.0", default-features = false, features = ["multi_threaded"] }
+
